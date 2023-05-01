@@ -34,7 +34,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20sp"
+            android:textSize="15sp"
+            android:textAlignment="center"
             android:text="@string/min"/>
 
         <TextView
@@ -43,7 +44,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textStyle="bold"
-            android:textSize="40sp"
+            android:textSize="30sp"
+            android:textAlignment="center"
             android:text="@string/current"/>
 
         <TextView
@@ -51,7 +53,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20sp"
+            android:textSize="15sp"
+            android:textAlignment="center"
             android:text="@string/max"/>
 
     </LinearLayout>
