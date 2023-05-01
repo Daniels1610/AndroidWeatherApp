@@ -126,7 +126,7 @@ public class LoadingActivity extends AppCompatActivity {
         @Override
         public void onFinish(){
             Intent intent = new Intent(LoadingActivity.this, MainActivity.class);
-            intent.putExtra("LATITUTDE", String.valueOf(latitude));
+            intent.putExtra("LATITUDE", String.valueOf(latitude));
             intent.putExtra("LONGITUDE", String.valueOf(longitude));
             startActivity(intent);
         }
